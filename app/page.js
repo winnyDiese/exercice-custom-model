@@ -25,7 +25,7 @@ export default function Home() {
         >
            Form model
         </button>
-        <Model isVisible={showModal} onClosse={()=>setShowModal(false)} />
+        <Model isVisible={showModal} onClose={()=>setShowModal(true)} />
       </Fragment>
     </div>
   )
